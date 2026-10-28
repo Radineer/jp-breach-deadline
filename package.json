@@ -1,0 +1,14 @@
+{
+  "name": "jp-breach-deadline",
+  "version": "0.1.0",
+  "description": "個人情報の漏えい等の報告（個人情報保護委員会への速報・確報）の要否と期限を、施行規則とガイドラインの定めどおりに計算する",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": { "jp-breach-deadline": "bin/cli.js" },
+  "files": ["src", "bin", "data"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "author": "合同会社Radineer（サイバー防衛相談室）",
+  "keywords": ["個人情報保護法", "漏えい", "報告期限", "個人情報保護委員会", "breach", "japan", "appi"]
+}
